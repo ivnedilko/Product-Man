@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,400');
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font: 400 24px 'Roboto', sans-serif;
+	color: #303030;
+	background: #fff;
+	margin: 0;
+}
+
+.pm-container
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1280px;
+	background-color: #eeeeee;
+	margin: 0 auto;
+}
+
+.pm-header
+{
+	overflow: auto;
+}
+
+.logo
+{
+	font: 900 48px 'Roboto', sans-serif;
+	display: block;
+	width: 290px;
+	float: left;
+}
+
+.logo a
+{
+	text-decoration: none;
+	color: #303030;
+}
+
+.logo a:hover
+{
+	color: #e10011;
+}
+
+.menu
+{
+	float: left;
+	display: inline-block;
+	margin-left: 250px;
+}
+
+.menu ul li
+{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: #303030;
+	float: right;
+}
+
+.menu ul li a:hover
+{
+	color: #e10011;
+}
+
+.menu_img
+{
+	background-image: url("../img/menu_img.jpg");
+	display: inline-block;
+	width: 17px;
+	height: 14px;
+	margin-top: 32px;
+	margin-left: 38px;
+}
+
+.pm-content
+{
+	width: 630px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: top;
+}
+
+.pm-content h1
+{
+	margin: 0;
+	padding: 0;
+}
+
+.pm-content a
+{
+	font: 900 24px 'Roboto', sans-serif;
+	color: #e10011;
+	text-decoration: none;
+}
+
+.pm-content a:hover
+{
+	color: black;
+}
+
+.product-recomended
+{
+	margin-top:100px;
+}
+
+.pm-content-title
+{
+	font: 900 150px 'Raleway', sans-serif;
+	text-transform: uppercase;
+	line-height: 150px;
+}
+
+.content-img
+{
+	display: inline-block;
+	width: 466px;
+	margin-left: 100px;
+}
+
+.pm-content-text
+{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 25px 0px 25px;
+	line-height: 38px;
+}
+
+.slider
+{
+	text-align: center;
+	padding: 80px 100px;
+}
+
+.slider a
+{
+	text-decoration: none;
+	background-image: url("../img/slider_item.png");
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+}
+
+.slider .active_img
+{
+	background-image: url("../img/slider_item-active.png");
+}
